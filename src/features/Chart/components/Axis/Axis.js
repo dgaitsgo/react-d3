@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { axisBottom, axisLeft, axisRight, axisTop } from 'd3'
+import G from '../G'
 
 import './Axis.css'
 
@@ -19,11 +20,11 @@ const Axis = ({ place, scale, tickPadding, tickSize, tickFormat, ticks, tickValu
 		.tickSize(tickSize[0], tickSize[1], tickSize[2])
 		.tickFormat(tickFormat)
 		.ticks(ticks)
-
-	console.log(ax)
 	
 	return (
-		null
+		<G>
+			{}
+		</G>
 	)
 }
 
